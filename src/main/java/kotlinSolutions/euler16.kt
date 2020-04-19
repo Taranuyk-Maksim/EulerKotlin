@@ -1,5 +1,8 @@
 package kotlinSolutions
 
+/**
+ * done
+ */
 import java.math.BigInteger
 
 fun main(args: Array<String>) {
@@ -13,7 +16,6 @@ fun main(args: Array<String>) {
 private fun run (n : Int) : Int {
     val bi = BigInteger("2")
     val num = bi.pow(n)
-
     var sum  = 0
 
     for (i in num.toString().toCharArray()) {
