@@ -4,7 +4,7 @@ import kotlin.math.sqrt
 
 /**
  * DONE
- * разобраться какработает
+ * работаетт
  */
 private val arr = IntArray(1001)
 
