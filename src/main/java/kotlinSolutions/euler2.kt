@@ -22,6 +22,7 @@ private fun run(n: Long): Long {
         if (next % 2 == 0L) {
             sum += next
         }
+
         next += first
         first = next - first
     }
